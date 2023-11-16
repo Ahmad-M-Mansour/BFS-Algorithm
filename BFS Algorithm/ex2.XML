@@ -1,0 +1,41 @@
+﻿<graph>
+    <vertex>
+      <name>a</name>
+    </vertex>
+
+    <vertex>
+      <name>c</name>
+    </vertex>
+
+    <vertex>
+      <name>d</name>
+    </vertex>
+
+    <vertex>
+      <name>b</name>
+    </vertex>
+  
+    <edge>
+      <start>a</start>
+      <end>b</end>
+    </edge>
+  
+    <edge>
+      <start>a</start>
+      <end>d</end>
+    </edge>
+  
+    <edge>
+      <start>b</start>
+      <end>c</end>
+    </edge>
+    <edge>
+      <start>b</start>
+      <end>d</end>
+    </edge>
+    <edge>
+      <start>d</start>
+      <end>c</end>
+    </edge>
+
+</graph>
